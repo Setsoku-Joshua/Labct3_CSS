@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    padding-top: 60px;  
+    padding-bottom: 40px; 
+}
+
+li, a {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 300;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    align-items: center;
+}
+
+.label {
+    color: #fbd748;
+    text-decoration: none;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.button {
+    background-color: #06397e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.container {
+    text-align: center;
+}
+
+.navbar {
+    background-color: #06397e; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    width: 120px; 
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 10 40px;
+}
+
+.nav-links li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 0px 1rem;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.center-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #06397e;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-links li {
+    margin: 0 40px;
+}
+
+.footer-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.footerlogo {
+    width: 120px; 
+    height: auto;
+}
+
